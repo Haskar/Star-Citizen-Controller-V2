@@ -185,6 +185,17 @@ Terminal=true
 
 Reboot and hope for the best
 
+##### Rename all the pictures
+install "rename"
+```bash
+sudo apt install rename
+```
+navigate to your image folder and rename all the files to use "_" instead of "-"
+
+```bash
+rename 's/-/_/g' *-*
+```
+
 
 ##### Python Script tuning
 This is my first "working" python script using tkinter. It is ugly and I don't like it, but I dont have to see it that much because it works.
